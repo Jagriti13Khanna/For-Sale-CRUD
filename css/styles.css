@@ -1,0 +1,322 @@
+body {
+    background: #caf0f8;
+}
+
+body nav,
+body div {    
+    max-width: 85rem;
+    margin: 0 auto;
+}
+
+header {
+    background: #03045e;
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.form-section-desktop {
+    display: none;
+}
+
+nav {
+    padding: 1rem 0 3rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.search-form-container {
+    border: 2px solid #03045e;
+    margin: 2rem 0;
+    padding: 0.5rem;
+}
+
+
+h2 {
+    color: #03045e;
+    font-size: 1.6rem;
+    text-decoration: underline;
+}
+
+.search-form h2 {
+    padding: 0.5rem 0;
+    margin: 0;
+}
+
+.search-form div {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.search-form input[type=submit] {
+    background: #03045e;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.search-form input[type=submit]:hover {
+    color: black;
+    background: #ffb3c1;
+}
+
+/* .form {
+    display: flex;
+    flex-direction: column;
+} */
+
+.ads-section h2 {
+    text-align: center;
+}
+
+.float {
+    display: flex;
+    justify-content:end;
+}
+
+
+a.mb {
+    margin: 1.5rem 0 0.5rem !important;
+    display: block;
+
+}
+
+.block a {
+    margin: 1.5rem 0 0.5rem !important;
+    display: block;
+}
+
+.ads-single {
+    border: 3px solid #ffb3c1;
+    padding: 0.5rem 0.5rem 2rem;
+    margin: 1.5rem 0;
+}
+
+.ads-single-view {
+    padding: 0.5rem 0.5rem 2rem;
+    margin: 1.5rem 0;
+}
+
+.ads-single a,
+.ads-single-view a {
+    background: #03045e;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 1.5rem 0 0rem;
+}
+
+.ads-single a:hover,
+.ads-single-view a:hover {
+    color: black;
+    background: #ffb3c1;
+}
+
+.block a {
+    display: inline;
+    margin: 0.25rem 0.5rem;
+}
+
+.mb {
+    margin-bottom: 1rem;
+}
+
+ul.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0;
+    font-size: 1.4rem;
+    text-decoration: none;
+     color: #03045e;
+}
+
+.pagination li a {
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.pagination a:hover {    
+    color: black;
+    background: #ffb3c1;
+    padding: 0.25rem 0.5rem;
+    text-decoration: underline;
+    color: #03045e;
+    font-size: 1.4rem;
+}
+
+.message p {
+    border: 2px solid red;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-section-mobile {    
+    border: 2px solid #03045e;
+    height: -moz-available;    
+    margin: 2rem 0;
+    padding: 0.5rem;
+}
+
+.login-form div,
+.ad-form div,
+.register-form div,
+.change-password-form div  {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label,
+.ad-form label,
+.register-form label,
+.change-password-form label {
+    margin: 0.5rem 0;
+}
+
+.register,
+.change-password {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.login-form input,
+.ad-form input, 
+.register-form input,
+.change-password-form input {
+    padding: 0.5rem;
+}
+
+.login-form input[type=submit],
+.register-form input[type=submit],
+.ad-form input[type=submit],
+.change-password-form input[type=submit] {
+    background: #03045e;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.login-form input[type=submit]:hover,
+.register-form input[type=submit]:hover,
+.ad-form input[type=submit]:hover,
+.change-password-form input[type=submit]:hover {
+    color: black;
+    background: #ffb3c1;
+}
+
+footer {
+    background: #03045e;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    font-size: 1.6rem;
+    margin: 4rem 0 0;
+}
+
+p.error {
+    border: 2px solid red!important;
+    padding: 0.5rem!important;
+    font-size: 1.3rem!important;
+    color: red!important;
+    font-weight: bold!important;
+    text-align: center!important;
+}
+
+p.noError {
+    border: 2px solid green!important;
+    padding: 0.5rem!important;
+    font-size: 1.3rem!important;
+    color: green!important;
+    font-weight: bold!important;
+    text-align: center!important;
+}
+
+p.valError {
+    color: red;
+    font-size: 1rem;
+}
+
+p.valNoError {
+    border: 2px solid green!important;
+    padding: 0.5rem!important;
+    font-size: 1.3rem!important;
+    color: green!important;
+    font-weight: bold!important;
+    text-align: center!important;
+}
+
+@media only screen and (min-width: 950px) {
+    .main-flex-container {
+        display: flex;
+    }
+    
+    .search-section,
+    .form-section-mobile {
+        width: 20%;
+    }
+    
+    .ads-section {
+        width: 75%;
+        margin: 2rem 1rem;
+         border: 2px solid #03045e;
+    height: -moz-available;
+    padding: 0.5rem;
+    }
+    
+    .ads {
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0rem 1rem;
+        gap: 1rem;
+        
+    }
+
+    .ads-single {
+        width: 28%;
+    }
+
+    .ads-single-view {
+        width: 95%;
+    }
+    
+    .ads-single-flex,
+    .ads-single-flex-view {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav a {
+    font-size: 1.6rem;
+    }
+
+}
